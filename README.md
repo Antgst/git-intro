@@ -76,11 +76,11 @@ By the end of this project, you will be able to:
 
 ## Useful Commands Cheat Sheet:
 # Setup
-git config --global user.name "Your Name"
-git config --global user.email "you@email.com"
+- git config --global user.name "Your Name"
+- git config --global user.email "you@email.com"
 
 # Start a repo
-git init
+- git init
 
 # Track & commit
 - git status
