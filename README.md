@@ -76,11 +76,11 @@ git config --global user.email "you@email.com"
 git init
 
 # Track & commit
-git status
-git add <file>
-git add .
-git commit -m "Your message"
-git log --oneline --graph --decorate
+- git status
+- git add <file>
+- git add .
+- git commit -m "Your message"
+- git log --oneline --graph --decorate
 
 # Remotes
 git remote add origin <repo_url>
