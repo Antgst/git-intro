@@ -48,15 +48,18 @@ By the end of this project, you will be able to:
 
 ## Suggested Workflow (GitHub Flow)
 1. Create a new branch:
+
    ```bash
    git switch -c feature/my-change
    
 2. Make changes and commit:
+
 	```bash
 	git add .
 	git commit -m "Add feature X"
    
 4. Push the branch:
+
    	```bash
 	git push -u origin feature/my-change
    
@@ -64,6 +67,7 @@ By the end of this project, you will be able to:
 7. Resolve feedback and conflicts if needed.
 8. Merge to main.
 9. If something goes wrong, rollback safely:
+
   	```bash
 	git revert <commit_sha>
 
