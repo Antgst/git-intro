@@ -83,33 +83,33 @@ git init
 - git log --oneline --graph --decorate
 
 # Remotes
-git remote add origin <repo_url>
-git push -u origin main
-git pull
+- git remote add origin <repo_url>
+- git push -u origin main
+- git pull
 
 # Branching
-git branch
-git switch -c new-branch
-git merge new-branch
+- git branch
+- git switch -c new-branch
+- git merge new-branch
 
 # Ignore files
-touch .gitignore
+- touch .gitignore
 
 # Rollbacks
-git reset --hard <commit_sha>   # destructive, local history rewrite
-git revert <commit_sha>         # safe, creates a new commit
+- git reset --hard <commit_sha>   # destructive, local history rewrite
+- git revert <commit_sha>         # safe, creates a new commit
 
 ## Notes
-Prefer small, frequent commits with clear messages.
-Use `git revert` for shared histories when working with others.
-Use `git reset` cautiously (especially if commits were pushed).
+- Prefer small, frequent commits with clear messages.
+- Use `git revert` for shared histories when working with others.
+- Use `git reset` cautiously (especially if commits were pushed).
 
 ## Resources
-Pro Git Book
-Git Command Reference
-GitHub: Getting Started
-GitHub Flow
-Managing Merge Conflicts
+- Pro Git Book
+- Git Command Reference
+- GitHub: Getting Started
+- GitHub Flow
+- Managing Merge Conflicts
 
 ## Author
 * Antoine Gousset – GitHub: [Antgst](https://github.com/Antgst)
