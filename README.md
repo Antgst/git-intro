@@ -55,3 +55,21 @@ By the end of this project, you will be able to:
 1. Create a new branch:
    ```bash
    git switch -c feature/my-change
+   
+2. Make changes and commit:
+```bash
+	git add .
+	git commit -m "Add feature X"
+   
+4. Push the branch:
+  ```bash
+	git push -u origin feature/my-change
+   
+5. Open a Pull Request on GitHub.
+6. Resolve feedback and conflicts if needed.
+7. Merge to main.
+8. If something goes wrong, rollback safely:
+git revert <commit_sha>
+
+
+
