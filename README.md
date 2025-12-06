@@ -63,10 +63,13 @@ By the end of this project, you will be able to:
    	```bash
 	git push -u origin feature/my-change
    
-6. Open a Pull Request on GitHub.
-7. Resolve feedback and conflicts if needed.
-8. Merge to main.
-9. If something goes wrong, rollback safely:
+5. Open a Pull Request on GitHub.
+
+6. Resolve feedback and conflicts if needed.
+   
+7. Merge to main.
+    
+8. If something goes wrong, rollback safely:
 
   	```bash
 	git revert <commit_sha>
